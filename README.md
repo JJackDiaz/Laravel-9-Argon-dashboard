@@ -13,7 +13,7 @@
 After initializing a fresh instance of Laravel (and making all the necessary configurations), install the preset using one of the provided methods:
 Via composer
 
-1. ###Cd### to your Laravel app
+1. **Cd** to your Laravel app
 2. Type in your terminal: composer require laravel/ui
 3. Install this preset via composer require laravel-frontend-presets/argon. No need to register the service provider. Laravel 9.x & up can auto detect the package.
 4. Run php artisan ui argon command to install the Argon preset. This will install all the necessary assets and also the 
