@@ -13,12 +13,13 @@
 After initializing a fresh instance of Laravel (and making all the necessary configurations), install the preset using one of the provided methods:
 Via composer
 
-- **[Cd to your Laravel app]**
-- **[Type in your terminal: composer require laravel/ui]**
-- **[Install this preset via composer require laravel-frontend-presets/argon. No need to register the service provider. Laravel 9.x & up can auto detect the package.]**
-- **[Run php artisan ui argon command to install the Argon preset. This will install all the necessary assets and also the custom auth views, it will also add the auth route in routes/web.php (NOTE: If you run this command several times, be sure to clean up the duplicate Auth entries in routes/web.php)]**
-- **[In your terminal run composer dump-autoload]**
-- **[Run php artisan migrate:fresh --seed to create basic users table]**
+1. [Cd] to your Laravel app
+2. Type in your terminal: [composer require laravel/ui]
+3. Install this preset via [composer require laravel-frontend-presets/argon]. No need to register the service provider. Laravel 9.x & up can auto detect the package.]**
+4. Run php artisan ui argon command to install the Argon preset. This will install all the necessary assets and also the 
+5. custom auth views, it will also add the auth route in routes/web.php (NOTE: If you run this command several times, be sure to clean up the duplicate Auth entries in routes/web.php)]**
+6. In your terminal run composer dump-autoload]**
+7. Run php artisan migrate:fresh --seed to create basic users table]**
 
 
 ## By using the archive
